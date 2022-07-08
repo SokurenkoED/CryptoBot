@@ -30,7 +30,7 @@ def get_avg_macd_oscillator(macd_indiactor):
 
 # Получаем данные по символу c определенным интервалом за нужное количество дней
 # возвращаем список данных
-def get_list_data(_symbol, _interval, _data, _correction_time):  # ffffff
+def get_list_data(_symbol, _interval, _data, _correction_time):  # fff
     # в заввисимости от типа записи даты прибавим поправку на время для более точного расчета показателей индекса
     splited_data = _data.split(' ')
     if len(splited_data) == 4:
